@@ -1,0 +1,40 @@
+
+    {
+        "items": {
+            "bootstrap": [
+            {
+              "id": 1,
+              "title": "“The Fluxon team’s knowledge and experience were invaluable in delivering our project. Their professionalism was exceptional.”",
+              "name":"William Watkins,Solutions Architect, Stripe",
+              "companyLogo":"/stripeColor.svg"
+            },
+            {
+              "id": 2,
+              "title": "“Fluxon is a team of A-players with deep experience and passion for their craft. They have consistently delivered on quality work since day one.”",
+              "name":"Shin Kin ,CEO,Eraser",
+              "companyLogo":"/eraserColor.svg"            
+
+            },
+            {
+              "id": 3,
+              "title": "“Fluxon was pivotal in helping us accelerate our initiatives. They seamlessly embedded with our product teams under tight deadlines and ever-rising technical complexity.”",
+              "name":"Taylor Haliday,Director of Product, Zapier",
+              "companyLogo":"/zapierColor.svg"
+            },
+            {
+              "id": 4,
+              "title": "”Fluxon has been an exceptional partner. They built customer apps to showcase the robustness of Commure’s platform and capabilities, allowing us to double-down on expanding our core platform.”",
+              "name":"Aswini Zenooz,M.D,CEO,Commure",
+              "companyLogo":"/commureColor.svg"
+            },
+            {
+              "id": 5,
+              "title": "“Fluxon has been a game-changer for our business. Since Day 1, their work ethic and hustle has been clear and consistent.”",
+              "name":"Leslie Voorhees Means,Co-Founder &amp; CEO, Anomalie",
+              "companyLogo":"/anomalie.svg"
+            }
+          ]
+        }
+      }
+      
+  

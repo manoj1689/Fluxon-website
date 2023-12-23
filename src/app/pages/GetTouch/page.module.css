@@ -1,0 +1,155 @@
+.getTouchDiv {
+    height: 100%;
+    background: url('/ContactBg.png') left center / cover no-repeat rgb(24, 24, 28);
+}
+
+        
+
+.GetTouchContainer{
+    padding: 200px 0 100px 0;
+}
+
+
+
+.contactText{
+    position: relative;
+    background-color:transparent ;
+    align-items: flex-start;
+    padding: 50px 21px ;
+   
+  
+  }
+  .contactTextDetails{
+    color: #D1D1D5;
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 25px;
+  }
+
+
+  .TextFullStop{
+    color: #125EF6;
+  }
+  
+  .TextDetails{
+    margin: 16px 0 165px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 29px;
+    max-width: 690px;
+    color:white;
+  }
+
+
+.contactTextHeading{
+    display: flex;
+   
+
+}
+
+.Text{
+    color: rgb(255, 255, 255);
+    margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 31px;
+    line-height: 44px;
+}
+
+  .contactBackgroundForm{
+    background-color: #18181C;
+  }
+  .contactForm{
+    margin: 0;
+    padding: 20px;
+   
+  }
+  .FormBox{
+    margin: 10px 0 10px 0;
+  }
+  
+  .FormInput{
+    background-color:rgba(255, 255, 255, 0.06);
+   
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 29px;
+    border-radius: 0;
+    border:1px solid rgba(255, 255, 255, 0.06);
+    transition: padding .3s ease;
+    padding: 20px;
+  }
+  /* YourComponent.module.css or your global styles */
+  .FormInput::placeholder {
+    color: #A3A4AA!important;
+   
+  }
+  
+  .Verify{
+    display: flex;
+    margin-top: 10px;
+  }
+
+  .FormInput::placeholder {
+    color: #A3A4AA!important;
+   
+  }
+  
+  .randomBox{
+    background-color: grey;
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+  }
+  .Verify{
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  .FormButton{
+    margin-top: 10px;
+    background-color: #A0BFFC;
+    border-radius: 0;
+    border-color: #A0BFFC;
+    font-weight: 500;
+      font-size: 16px;
+      color: white;
+      width: 100%;
+      padding: 20px ;
+      justify-content: space-around;
+  }
+  
+  .ButtonGoArrow{
+    margin-left: 20px;
+  }
+  
+ 
+  
+
+  @media screen and (min-width: 905px){
+    .Text{
+        font-weight: 500;
+        font-size: 61px;
+        line-height: 75px;
+        color:white;
+      }
+
+    .contactTextHeading{
+        display: block;
+    }
+    .contactText{
+        padding: 100px 51px;
+      }
+      .contactTextDetails{
+          font-weight: 300;
+          font-size: 16px;
+          line-height: 29px;
+          max-width: 335px;
+      
+      }
+      .contactForm{
+        padding: 50px;
+      }
+}

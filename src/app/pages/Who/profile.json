@@ -1,0 +1,56 @@
+{
+    "profile":[
+        {
+            "name":"Queenie Tran",
+            "post":"Operation Leads",
+            "country":"USA"
+        },
+        {
+            "name":"Edgard Linder",
+            "post":"Director of Engineer",
+            "country":"USA"
+        },
+        {
+            "name":"Ana Gubin ",
+            "post":"Senior Product Manager",
+            "country":"USA"
+        },
+        {
+            "name":"Oxsana Vanzhula",
+            "post":"Technical Product Manager Lead",
+            "country":"Ukrane"
+        },
+        {
+            "name":"Maria Taran ",
+            "post":"Technical Product Manager",
+            "country":"Portugal"
+        },
+        {
+            "name":"Alla Liaschuk",
+            "post":"Operation Manager",
+            "country":"Ukrane"
+        },
+        {
+            "name":"Maksym Sydorenko ",
+            "post":"Senior Software Engineer",
+            "country":"Poland"
+        },
+        {
+            "name":"Hiaku chandan",
+            "post":"Senior Product Manager",
+            "country":"Canada"
+        },
+        {
+            "name":"Alax Kutas",
+            "post":"Engineer Lead",
+            "country":"Ukrane"
+        },
+        {
+            "name":"Agam Kumar",
+            "post":"Senior Software Engineer",
+            "country":"India"
+        }
+
+
+    ]
+}

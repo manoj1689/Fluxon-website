@@ -1,0 +1,823 @@
+.WhoPage {
+  z-index: 1;
+}
+
+.WhoTopBackground {
+  background: #18181c
+    linear-gradient(180deg, rgba(24, 24, 28, 0) 0%, #18181c 100%);
+  padding-top: 85px;
+  overflow: hidden;
+  position: relative;
+}
+
+.Top {
+  padding: 60px 24px;
+  color: #fff;
+  position: relative;
+  z-index: 5;
+}
+
+.TextDiv {
+  padding-bottom: 100px;
+}
+
+.Text {
+  font-weight: 500;
+  font-size: 61px;
+  line-height: 75px;
+  color: white;
+}
+
+.TextFullStop {
+  color: #125ef6;
+}
+
+.Static {
+  background: linear-gradient(180deg, #29292e 0%, #18181c 173.08%);
+  padding: 60px 0 60px 0;
+}
+.Tittle {
+  font-weight: 500;
+  font-size: 27px;
+  line-height: 38px;
+
+  margin-right: 2px;
+  color: rgb(255, 255, 255);
+}
+.Tag {
+  font-size: 27px;
+  line-height: 38px;
+  margin-right: 2px;
+  font-weight: 300;
+
+  color: rgb(255, 255, 255);
+}
+
+.Disc {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 25px;
+  margin-top: 12px;
+  color: rgb(209, 209, 213);
+}
+
+.StaticHeading {
+  display: flex;
+  padding-top: 20px;
+}
+
+.number {
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 34px;
+  color: rgb(242, 238, 244);
+  text-align: center;
+}
+.AboutNumber {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 29px;
+  color: rgb(209, 209, 213);
+  text-align: center;
+}
+.StaticImage {
+  padding: 20px 30px;
+}
+.LeaderShipContainer {
+  padding: 80px 0 80px 0;
+  height: auto;
+}
+.LeaderDiv {
+  font-weight: 500;
+  font-size: 27px;
+  line-height: 38px;
+  text-align: center;
+  color: #181b2b;
+  padding-bottom: 60px;
+}
+
+.LeaderRow {
+  position: relative;
+  height: 100%;
+}
+
+.LeaderColAbout {
+  right: 0;
+  position: absolute;
+  background-color: rgb(242, 242, 242);
+  box-shadow: 0px 15px 18px -15px #d3d3d3;
+  vertical-align: top;
+  margin: 0;
+  min-height: 480px;
+}
+
+.closeButton {
+  position: absolute;
+
+  right: 0px;
+  top: 0px;
+  padding: 20px;
+  cursor: pointer;
+  background: rgb(242, 242, 242);
+}
+
+.Name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  margin: 20px 0 4px;
+  width: fit-content;
+  border-bottom: 1px solid #fff;
+}
+
+.Post {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #125ef6;
+  margin-bottom: 20px;
+}
+.Detail {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 25px;
+  color: #55556d;
+  display: none;
+}
+
+.ReadMore {
+  align-items: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #181b2b;
+  border-bottom: 1px solid #fff;
+  width: fit-content;
+}
+.LeaderCol:hover {
+  cursor: pointer;
+  .Name {
+    border-bottom: 1px solid #18181c;
+  }
+  .ReadMore {
+    border-bottom: 1px solid #18181c;
+  }
+}
+
+.AboutName {
+  font-weight: 500;
+  font-size: 27px;
+  line-height: 38px;
+  margin-bottom: 4px;
+}
+
+.AboutDetail {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 25px;
+  margin-bottom: 16px;
+}
+
+.ResponsiveImage {
+  width: 100%;
+  height: 234px;
+}
+.AboutText {
+  padding: 32px 38px;
+}
+.ExpertsDiv {
+  padding: 60px 0 60px 0;
+  background: linear-gradient(180deg, #f8f7f9 0%, #ffffff 100%);
+}
+.Image1Div {
+  text-align: center;
+}
+.ResponsiveImage1 {
+  width: 197px;
+  height: 134px;
+  margin: auto;
+}
+
+.ExpertImage2 {
+  padding-top: 20px;
+}
+.ResponsiveImage2 {
+  width: 194px;
+  height: 153px;
+}
+
+.ExpertImage3 {
+  padding: 20px 20px;
+}
+.ResponsiveImage3 {
+  width: 124px;
+  height: 124px;
+}
+.ExpertTextCol {
+  align-items: center;
+  padding: 20px;
+}
+
+.ExpertTextHeading {
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 29px;
+  color: #747680;
+  -webkit-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}
+.ExpertTextHeading:hover {
+  color: black;
+}
+.ExpertTextDetail {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 25px;
+  margin-top: 0;
+  overflow: hidden;
+  height: 58px;
+  -webkit-transition: height 0.3s ease;
+  transition: height 0.3s ease;
+  color: #747680;
+}
+.ExpertTextRow {
+  padding: 24px 0;
+  border-bottom: 1px solid #e8e8ea;
+}
+.Black {
+  color: #181b2b;
+}
+
+
+.OurTeam{
+  background: linear-gradient(180deg, #1E1E22 0%, #18181C 100%);
+  position: relative;
+  padding: 60px 0 60px 0;
+}
+
+
+.work{
+  width: 100%;
+  height: 500px;
+  position: absolute;
+  bottom: 0;
+}
+
+
+.OurTeamHeading{
+  text-align: center;
+  font-weight: 500;
+  font-size: 27px;
+  line-height: 38px;
+  color: #fff;
+}
+.OurTeamDetailTop{
+  text-align: center;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 25px;
+  color: #CFD0D3;
+  margin: 12px auto 0;
+}
+.ImageDiv{
+  position: relative;
+  height: 100px;
+  align-items: center;
+  margin-top: 50px;
+}
+.Slider{
+  position: relative;
+ 
+  
+}
+
+
+.TeamImage{
+  border-radius: 50%;
+  margin: auto;
+ 
+
+}
+
+
+.TeamArrow{
+  width: 100%;
+  text-align: center;
+
+}
+
+
+
+.TeamImageDetail{
+position: relative;
+max-width: 300px;
+margin:auto;
+height: 100px;
+background-color: #125ef6;
+text-align: center;
+color: #d3d3d3;
+padding: 10px;
+
+
+}
+
+.teamName{
+  color: #fff;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+}
+.teamPost{
+  color: #fff;
+  font-size: 11px;
+  line-height: 18px;
+  margin-top: 2px;
+  text-align: center;
+}
+
+.country{
+  color: #fff;
+  font-size: 12px;
+  line-height: 20px;
+  text-transform: uppercase;
+  margin-top: 8px;
+  background: rgba(255,255,255,.08);
+  padding: 4px 12px;
+  border-radius: 30px;
+  align-items: center;
+}
+/* styles.js or styles.css */
+@keyframes fadeInOut {
+  0% {
+    opacity: 1;
+    visibility: visible;
+  }
+  25% {
+    opacity: 1;
+    visibility: visible;
+  }
+  50% {
+    opacity: 0;
+    visibility: hidden;
+  }
+  75% {
+    opacity: 0;
+    visibility: hidden;
+  }
+  100% {
+    opacity: 0;
+    visibility: visible;
+  }
+}
+
+.TeamImageDetail {
+  animation: fadeInOut 3s ease-in-out infinite; /* Adjust duration as needed */
+}
+.TeamImageDetail::before {
+  content: "";
+  position: absolute;
+  top: -15px; /* Adjust the distance above the container */
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 0 10px 15px 10px;
+  border-style: solid;
+  border-color: transparent transparent #125ef6 transparent; /* Adjust the color as needed */
+}
+
+
+.TeamTag{
+ 
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #D1D1D5;
+  position:relative;
+  padding-top: 50px;
+  
+}
+
+
+.MeetTeam {
+  align-items: center;
+  padding:0 10px 0 10px;
+  display: flex;
+  margin: auto;
+  width: 250px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  height: auto;
+  cursor: pointer;
+  background-color: transparent;
+  justify-content: space-around;
+  color: #fff;
+  border: 1px solid #fff;
+  position: relative;
+  margin-top: 50px;
+}
+
+.MeetTeam::after {
+  content: "\2192"; /* Unicode arrow right character */
+  padding-bottom: 10px;
+  transition: margin-left 0.3s ease-in-out, transform 0.3s ease-in-out;
+  font-size: 40px; /* Adjust the font-size as needed for medium size */
+  transform: scaleX(1); /* Initial width scaling */
+  transform-origin: 0 50%; /* Set the transform origin to the left side */
+}
+
+.MeetTeam:hover::after {
+  transform: scaleX(1.2); /* Increase width on hover */
+}
+
+
+.LearnMore:hover {
+  background-color: #fff;
+  color: #181B2B;
+  border: 1px solid #fff;
+}
+
+
+.HowHeading{
+    text-align: center;
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 38px;
+    color: #181B2B;
+    margin-top: 80px;
+}
+
+.HowRow{
+  margin:80px 0 80px 0 ;
+ text-align: center;
+}
+.HowTittle{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #181B2B;
+  margin: 20px 0 12px;
+  text-align: center;
+  height: 44px;
+}
+.HowDetail{
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 25px;
+  color: #747680;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.discoverDiv{
+  padding: 80px 0 80px 0;
+  background: #F2EEF4;
+}
+.discoverHeading{
+  text-align: center;
+  font-weight: 500;
+  font-size: 27px;
+  line-height: 38px;
+  color: #181B2B;
+}
+.discoverRow{
+  display: block;
+}
+.discoverCol{
+  display: block;
+  margin: 20px 20px 0 0 ;
+  background-color: #18181C;
+  position: relative;
+  
+}
+
+
+.discoverImageDiv{
+  position: relative;
+  text-align: right;
+  background-color: #18181C;
+  width: 100%;
+}
+
+.discoverImage{
+  position: relative;
+  
+  
+}
+.discoverText{
+  position: relative;
+  padding: 60px 20px 60px 20px;
+  
+}
+
+
+/* Add styling for other elements as needed */
+
+.discoverTittle{
+  font-weight: 500;
+  font-size: 31px;
+  line-height: 44px;
+  margin-bottom: 8px;
+  color: white;
+}
+
+.discoverDetail{
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 29px;
+  margin-bottom: 24px;
+  color: #CFD0D3;
+  display: none;
+  
+}
+
+.seeCase{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 29px;
+  margin-bottom: 24px;
+  color: white;
+  width:fit-content;
+  border-bottom: 1px solid transparent;
+  
+}
+.seeCase:hover{
+  border-bottom: 1px solid white;
+}
+/* Add styling for other elements as needed */
+
+@media screen and (min-width: 1240px) {
+  .discoverRow{
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 905px) {
+ .discoverCol{
+  display: flex;
+ }
+
+  
+  .discoverHeading{
+    font-weight: 500;
+    font-size: 31px;
+    line-height: 44px;
+  }
+  .HowDetail{
+    height: auto;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 25px;
+  }
+  .HowTittle{
+    height: auto;
+    text-align: center;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 29px;
+  }
+.HowHeading{
+  font-weight: 500;
+  font-size: 31px;
+  line-height: 44px;
+}
+  .TeamTag{
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 29px;
+  }
+
+  .OurTeamDetailTop{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 29px;
+    max-width: 887px;
+  }
+  .OurTeamHeading{
+    font-weight: 500;
+    font-size: 31px;
+    line-height: 44px;
+  }
+  .ExpertTextHeading {
+    font-weight: 500;
+    font-size: 31px;
+    line-height: 44px;
+    cursor: pointer;
+  }
+  .ExpertTextDetail {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 29px;
+    margin-top: 0;
+  }
+
+  .ResponsiveImage1 {
+    width: 250px;
+    height: 200px;
+    margin: auto;
+  }
+
+  .ResponsiveImage2 {
+    width: 300px;
+    height: 250px;
+  }
+
+  .ResponsiveImage3 {
+    width: 200px;
+    height: 200px;
+  }
+
+  .AboutName {
+    font-weight: 500;
+    font-size: 41px;
+    line-height: 57px;
+  }
+
+  .LeaderDiv {
+    font-weight: 500;
+    font-size: 31px;
+    line-height: 44px;
+  }
+  .Name {
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 29px;
+    margin: 24px 0 4px;
+  }
+
+  .Detail {
+    margin: 12px 0 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+  }
+
+  .StaticBottomRow {
+    margin-top: 50px;
+  }
+
+  .StaticImage {
+    padding: 10px 100px;
+  }
+  .Disc {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 29px;
+  }
+  .Top {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 80px 100px;
+    padding-bottom: 40px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .discoverImage{
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    bottom: 0;
+  }
+
+
+
+ .discoverCol{
+  display: flex;
+ }
+  .discoverDetail{
+    display:block;
+  }
+  .ResponsiveImage {
+    width: 100%;
+    height: auto;
+  }
+
+  .Image1Div {
+    width: 50%;
+    margin: auto;
+  }
+
+  .Image3Div {
+    width: 70%;
+  }
+
+  .Detail {
+    -webkit-line-clamp: 3;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 29px;
+  }
+  .StaticHeading {
+    display: block;
+  }
+
+  .CustomWidthImage {
+    max-width: 800px; /* Set the maximum width as needed */
+    width: 100%;
+    height: auto;
+  }
+  .Top {
+    padding: 60px 36px;
+    padding-bottom: 60px;
+    padding-top: 61px;
+  }
+}
+
+.MotionImage1 {
+  background: rgba(255, 255, 255, 0.42);
+  opacity: 0.07;
+  width: 2101px;
+  height: 2101px;
+  position: absolute;
+  border-radius: 50%;
+  -webkit-transform: translate(34%, -78%);
+  -moz-transform: translate(34%, -78%);
+  -ms-transform: translate(34%, -78%);
+  transform: translate(34%, -78%);
+  -webkit-animation: animation-1nffvxq;
+  animation: animation-1nffvxq;
+  -webkit-animation-duration: 40s;
+  animation-duration: 40s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  display: block;
+}
+
+@keyframes animation-1nffvxq {
+  0% {
+    -webkit-transform: translate(34%, -78%);
+    -moz-transform: translate(34%, -78%);
+    -ms-transform: translate(34%, -78%);
+    transform: translate(34%, -78%);
+  }
+  50% {
+    -webkit-transform: translate(-34%, -78%);
+    -moz-transform: translate(-34%, -78%);
+    -ms-transform: translate(-34%, -78%);
+    transform: translate(-34%, -78%);
+  }
+  100% {
+    -webkit-transform: translate(34%, -78%);
+    -moz-transform: translate(34%, -78%);
+    -ms-transform: translate(34%, -78%);
+    transform: translate(34%, -78%);
+  }
+}
+
+.MotionImage2 {
+  background: rgba(255, 255, 255, 0.42);
+  opacity: 0.07;
+  width: 2101px;
+  height: 2101px;
+  position: absolute;
+  border-radius: 50%;
+  -webkit-transform: translate(34%, -78%);
+  -moz-transform: translate(34%, -78%);
+  -ms-transform: translate(34%, -78%);
+  transform: translate(34%, -78%);
+  -webkit-animation: animation-1nffvxq;
+  animation: animation-1nffvxq;
+  -webkit-animation-duration: 40s;
+  animation-duration: 40s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  display: block;
+  width: 3183px;
+  height: 3183px;
+  -webkit-transform: translate(-66%, -15%);
+  -moz-transform: translate(-66%, -15%);
+  -ms-transform: translate(-66%, -15%);
+  transform: translate(-66%, -15%);
+  -webkit-animation: animation-n0xfen;
+  animation: animation-n0xfen;
+  -webkit-animation-duration: 40s;
+  animation-duration: 40s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  display: block;
+}
+
+@keyframes animation-n0xfen {
+  0% {
+    -webkit-transform: translate(-66%, -15%);
+    -moz-transform: translate(-66%, -15%);
+    -ms-transform: translate(-66%, -15%);
+    transform: translate(-66%, -15%);
+  }
+
+  50% {
+    -webkit-transform: translate(-47%, -15%);
+    -moz-transform: translate(-47%, -15%);
+    -ms-transform: translate(-47%, -15%);
+    transform: translate(-47%, -15%);
+  }
+  100% {
+    -webkit-transform: translate(-66%, -15%);
+    -moz-transform: translate(-66%, -15%);
+    -ms-transform: translate(-66%, -15%);
+    transform: translate(-66%, -15%);
+  }
+}

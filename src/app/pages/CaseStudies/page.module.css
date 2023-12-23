@@ -1,0 +1,148 @@
+.WhatPage {
+    z-index: 1;
+  }
+  
+  .WhatTopBackground {
+    background: #18181c linear-gradient(180deg, rgba(24, 24, 28, 0) 0%, #18181c 100%);
+    padding-top: 85px;
+    overflow: hidden;
+    position: relative;
+  }
+
+
+.Top {
+    padding: 60px 24px;
+    color: #fff;
+    position: relative;
+    z-index: 5;
+  }
+  
+  .TextDiv {
+    padding-bottom: 100px;
+  }
+  
+  .Text {
+    font-weight: 500;
+    font-size: 61px;
+    line-height: 75px;
+    color: white;
+  }
+  
+  .TextFullStop {
+    color: #125ef6;
+  }
+
+  @media screen and (min-width: 905px) {
+
+    .Top {
+      max-width: 1440px;
+      margin: 0 auto;
+      padding: 80px 100px;
+      padding-bottom: 40px;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+
+    .Top {
+        padding: 60px 36px;
+        padding-bottom: 60px;
+        padding-top: 61px;
+      }
+  }
+  .MotionImage1 {
+    background: rgba(255, 255, 255, 0.42);
+    opacity: 0.07;
+    width: 2101px;
+    height: 2101px;
+    position: absolute;
+    border-radius: 50%;
+    -webkit-transform: translate(34%, -78%);
+    -moz-transform: translate(34%, -78%);
+    -ms-transform: translate(34%, -78%);
+    transform: translate(34%, -78%);
+    -webkit-animation: animation-1nffvxq;
+    animation: animation-1nffvxq;
+    -webkit-animation-duration: 40s;
+    animation-duration: 40s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    display: block;
+  }
+  
+  @keyframes animation-1nffvxq {
+    0% {
+      -webkit-transform: translate(34%, -78%);
+      -moz-transform: translate(34%, -78%);
+      -ms-transform: translate(34%, -78%);
+      transform: translate(34%, -78%);
+    }
+    50% {
+      -webkit-transform: translate(-34%, -78%);
+      -moz-transform: translate(-34%, -78%);
+      -ms-transform: translate(-34%, -78%);
+      transform: translate(-34%, -78%);
+    }
+    100% {
+      -webkit-transform: translate(34%, -78%);
+      -moz-transform: translate(34%, -78%);
+      -ms-transform: translate(34%, -78%);
+      transform: translate(34%, -78%);
+    }
+  }
+  
+  .MotionImage2 {
+    background: rgba(255, 255, 255, 0.42);
+    opacity: 0.07;
+    width: 2101px;
+    height: 2101px;
+    position: absolute;
+    border-radius: 50%;
+    -webkit-transform: translate(34%, -78%);
+    -moz-transform: translate(34%, -78%);
+    -ms-transform: translate(34%, -78%);
+    transform: translate(34%, -78%);
+    -webkit-animation: animation-1nffvxq;
+    animation: animation-1nffvxq;
+    -webkit-animation-duration: 40s;
+    animation-duration: 40s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    display: block;
+    width: 3183px;
+    height: 3183px;
+    -webkit-transform: translate(-66%, -15%);
+    -moz-transform: translate(-66%, -15%);
+    -ms-transform: translate(-66%, -15%);
+    transform: translate(-66%, -15%);
+    -webkit-animation: animation-n0xfen;
+    animation: animation-n0xfen;
+    -webkit-animation-duration: 40s;
+    animation-duration: 40s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    display: block;
+  }
+  
+  @keyframes animation-n0xfen {
+    0% {
+      -webkit-transform: translate(-66%, -15%);
+      -moz-transform: translate(-66%, -15%);
+      -ms-transform: translate(-66%, -15%);
+      transform: translate(-66%, -15%);
+    }
+  
+    50% {
+      -webkit-transform: translate(-47%, -15%);
+      -moz-transform: translate(-47%, -15%);
+      -ms-transform: translate(-47%, -15%);
+      transform: translate(-47%, -15%);
+    }
+    100% {
+      -webkit-transform: translate(-66%, -15%);
+      -moz-transform: translate(-66%, -15%);
+      -ms-transform: translate(-66%, -15%);
+      transform: translate(-66%, -15%);
+    }
+  }
+  

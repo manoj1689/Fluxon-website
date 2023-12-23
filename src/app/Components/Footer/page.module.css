@@ -1,0 +1,148 @@
+.Footer{
+  background: #18181C linear-gradient(180deg, rgba(24, 24, 28, 0) 0%, #18181C 100%);
+  padding: 100px 0 50px 0;
+}
+
+.FooterCol1{
+  width: 100%;
+}
+
+
+.FooterText1{
+  color: #CFD0D3;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 25px;
+    margin: 40px 0 11px;
+    
+}
+
+.FooterRowTop{
+ 
+  color: #fff;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    text-transform: uppercase;
+    padding: 10px;
+   
+}
+
+.FooterRowBottom{
+  display: block;
+    color: #fff;
+    opacity: .6;
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    padding: 10px;
+  
+}
+
+
+.subscribeTag{
+  color: #CFD0D3;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 25px;
+  margin-top: 20px;
+}
+.rightReserved{
+  margin-top: 20px;
+}
+.PrivacyLink{
+ color: #007aff;
+}
+
+
+.Customize{
+  color: #007aff;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.FormInput{
+  margin-top: 10px;
+  background-color:rgba(255, 255, 255, 0.06);
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 29px;
+  border-radius: 0;
+  border:1px solid rgba(255, 255, 255, 0.06);
+  transition: padding .3s ease;
+  padding: 20px;
+}
+/* YourComponent.module.css or your global styles */
+.FormInput::placeholder {
+  color: #A3A4AA!important;
+ 
+}
+
+.buttonDiv{
+  
+  width: 100%;
+}
+
+.SubsButton{
+    align-items: center;
+    background-color: #125EF6;
+    padding: 17px 24px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    height: auto;
+    cursor: pointer;
+    line-height: 35px;
+    border-radius: 0%;
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 0;
+
+}
+.FooterColumn2{
+  display: none;
+}
+
+.dropDown{
+  padding-bottom: 10px;
+  justify-content: space-between;
+  display: flex;
+}
+
+@media (min-width: 905px){
+  
+  .FooterCol1{
+    width: 90%;
+    
+  }
+
+.FooterText1{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 29px;
+}
+
+.subscribeTag{
+margin-top: 12px;
+}
+}
+
+@media (min-width: 768px){
+  
+
+  .FooterCol3{
+    display: none;
+  }
+  .FooterColumn2{
+    display: block;
+    padding-bottom: 20px;
+    
+  }
+.FooterText1{
+    max-width: 700px;
+}
+.subscribeTag{
+  margin-top: 8px;
+  }
+}

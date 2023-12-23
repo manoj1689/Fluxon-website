@@ -1,0 +1,131 @@
+/* YourStyles.module.css */
+.NavBar {
+  
+  width: 100vw;
+  z-index: 9999;
+  position: fixed;
+  color: white;
+  transition: background-color 0.3s ease; /* Add a smooth transition effect */
+  padding: 30px;
+}
+.NavBarSmall{
+  width: 100vw;
+  z-index: 9999;
+  position: fixed;
+  color: white;
+  background-color: #18181C;
+  transition:#18181C  0.3s ease; /* Add a smooth transition effect */
+  padding: 20px;
+}
+
+
+
+
+
+.HeaderLists{
+  display: flex;
+  justify-content: center;
+}
+
+.HiddenNavbar {
+  transform: translateY(-100%); /* Move the navbar outside of the viewport */
+}
+.HiddenNavbarSmall{
+  display: none;
+}
+
+.NavBar.scrollingUp {
+  background-color: #18181C; /* Change background color when scrolling up */
+}
+
+.HeaderLink{
+  color: rgb(255, 255, 255);
+
+    margin-right: 24px;
+    white-space: nowrap;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    position: relative; 
+    margin-left: 20px;
+}
+
+
+
+.HeaderLink:hover{
+  border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.getTouch{
+  border: 1px solid rgb(255, 255, 255);
+  text-align: center;
+  padding: 10px 0 10px 0;
+  color: rgb(255, 255, 255);
+    white-space: nowrap;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    width: 150px;
+}
+
+.getTouch:hover{
+  color:#18181C;
+  background-color: rgb(255, 255, 255); 
+}
+
+
+.dropDownBar{
+  padding: 20px;
+  
+  display: flex ;
+}
+
+.MobileLink{
+  color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 38px;
+    cursor: pointer;
+    
+}
+.DropdownMenuDiv{
+  margin-bottom: 40px;
+}
+
+@media only screen and (max-width: 768px){
+  .DropdownMenuList{
+    width: 100vw;
+    height: 100vh;
+    z-index: 9999;
+    position: fixed;
+    color: white;
+    transition: background-color 0.3s ease; /* Add a smooth transition effect */
+    padding: 20px; 
+    left: 0;
+    background-color: #18181C; 
+  }
+
+  .DropdownMenus{
+    height: 80vh;
+   align-items: center;
+  }
+ .NavBar{
+  display: none;
+ }
+ .getTouch{
+  width: 100%;
+ }
+
+}
+
+@media only screen and (min-width: 768px){
+  .NavBarSmall{
+    display: none;
+  }
+  .smallScreenBar{
+   display: none;
+  }
+ 
+ }
