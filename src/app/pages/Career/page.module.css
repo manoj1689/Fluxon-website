@@ -1,0 +1,449 @@
+.CareerPage {
+    z-index: 1;
+  }
+  
+  .CareerTopBackground {
+    background: #18181c linear-gradient(180deg, rgba(24, 24, 28, 0) 0%, #18181c 100%);
+    padding-top: 85px;
+    overflow: hidden;
+    position: relative;
+  }
+
+
+.Top {
+    padding: 60px 24px;
+    color: #fff;
+    position: relative;
+    z-index: 5;
+  }
+  
+  .TextDiv {
+    padding-bottom: 100px;
+  }
+  
+  .Text {
+    font-weight: 500;
+    font-size: 61px;
+    line-height: 75px;
+    color: white;
+  }
+  
+  .TextFullStop {
+    color: #125ef6;
+  }
+  .CareerImageCol{
+    display: flex;
+    align-items: center;
+    
+  }
+ 
+  .CareerFluxonDiv{
+    padding: 80px 0 80px 0;
+    
+  }
+
+  .CareerTextDiv{
+    margin-top: 50px;
+    
+  }
+
+  .CareerText{
+    width: 100%;
+   
+    
+  }
+  .CareerTextHead{
+    display: flex;
+  }
+
+  .CareerTextTittle{
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 38px;
+    margin-right: 2px;
+    color: #181B2B;
+  }
+  .CareerTextDesc{
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 38px;
+    display: inline-flex;
+    margin-right: 2px;
+    color: #181B2B;
+    font-weight: 300;
+
+  }
+  .CareerTextDetail{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 25px;
+    margin-top: 12px;
+    color: #303241;
+  }
+
+  .CareerProfiles{
+   margin-right: 10px;
+  }
+
+  
+  .ProfileRow{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    height: 200px;
+    justify-content: space-around;
+  }
+ 
+ .About{
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 25px;
+  color: #fff;
+ }
+ .Name{
+  margin-top: 32px;
+  font-weight: 500;
+  font-size: 31px;
+  line-height: 44px;
+  color: #fff;
+ }
+ .Post{
+  color: #A3A4AA;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 25px;
+  margin-top: 4px;
+ }
+.ProfileImage{
+  border-radius: 50%;
+}
+.CareerProfileImageCol{
+  display: flex;
+  align-items: center;
+  padding-left: 0px;
+  padding-right: 0px;
+  background: linear-gradient(180deg, #1E1E22 0%, #18181C 100%);;
+}
+.CareerProfilesTextCol{
+  background: linear-gradient(180deg, #1E1E22 0%, #18181C 100%);
+}
+
+/* Add your existing styles here */
+
+.CareerProfiles {
+  cursor: pointer;
+  opacity: 0.5;
+  transition: opacity 0.3s ease; /* Add a smooth transition effect for opacity */
+}
+
+.SelectedProfile {
+  opacity: 1; /* Set the desired opacity for the selected profile */
+  transform: scale(1.2); /* Add a zoom-in effect for the selected profile */
+}
+
+.BenefitDiv{
+  padding: 100px 0 80px 0;
+}
+/* Add any other styles you need */
+.BenefitHead{
+  text-align: center;
+  font-weight: 500;
+  font-size: 27px;
+  line-height: 38px;
+  color: #181B2B;
+  padding: 0px 0 80px 0 ;
+}
+.BenefitTittle{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #181B2B;
+  margin: 30px 0 10px;
+  text-align: center;
+}
+.BenefitDetails{
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 25px;
+  color: #464955;
+  text-align: center;
+}
+.BenefitImage{
+  text-align: center;
+}
+.BenefitCol{
+  padding: 10px;
+}
+.ProfitShareDiv{
+  padding: 80px 0 80px 0;
+  background: #F2EEF4;
+}
+.ProfitShareTextCol{
+  padding-top: 80px;
+}
+.ProfitShareTextHeading{
+  color: #181B2B;
+  margin-bottom: 24px;
+  font-weight: 500;
+  font-size: 27px;
+  line-height: 38px;
+}
+.ProfitShareTextTittle{
+  color: #181B2B;
+  margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+}
+.ProfitShareDesc{
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 25px;
+  color: #181B2B;
+  margin-bottom: 24px;
+}
+
+.ProfitShareImageCol{
+  display: flex;
+  align-items: center;
+}
+
+.ourValueDiv{
+  background: linear-gradient(rgb(30, 30, 34) 0%, rgb(24, 24, 28) 100%) 0% 0% / cover;
+  padding: 80px 0 80px 0;
+}
+
+.ourValueHeading{
+  color: rgb(255, 255, 255);
+  margin-bottom: 32px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 31px;
+  line-height: 44px;
+}
+.valueTittle{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: rgb(255, 255, 255);
+  margin: 30px 0px 10px;
+  text-align: center;
+}
+.valueDetail{
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 25px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+  @media screen and (min-width: 905px) {
+    .valueDetail{
+      height: auto;
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 25px;
+    }
+    .valueTittle{
+      font-weight: 500;
+      font-size: 21px;
+      line-height: 29px;
+    }
+  .ProfitShareDesc{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 29px;
+    margin-bottom: 32px;
+    }
+  .ProfitShareTextHeading{
+    font-weight: 500;
+    font-size: 31px;
+    line-height: 44px;
+    margin-bottom: 32px;
+  } 
+    .BenefitDetails{
+      width: 80%;
+      margin:auto;
+      font-weight: 300;
+      font-size: 15px;
+      line-height: 25px;
+    }
+    .BenefitTittle{
+      font-weight: 500;
+      font-size: 21px;
+      line-height: 29px;
+      text-align: center;
+    }
+    .BenefitHead{
+      font-weight: 500;
+      font-size: 31px;
+      line-height: 44px;
+      
+    }
+    .CareerProfileText{
+      padding: 30px 0 10px 60px;
+     }
+
+     .CareerProfileImageCol{
+      text-align: right;
+     }
+    .Post{
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 29px;
+    }
+    .Name{
+      font-weight: 500;
+      font-size: 27px;
+      line-height: 38px;
+    }
+    .About{
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 29px;
+    }
+    .CareerText{
+      width: 80%;
+      margin: auto;
+      
+    }
+    .CareerTextDetail{
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 29px;
+    }
+    .CareerTextDesc{
+      margin-right: 0;
+      font-weight: 300;
+      font-size: 31px;
+      line-height: 44px;
+      display: block;
+    }
+    .CareerTextTittle{
+      margin-right: 0;
+      font-weight: 500;
+      font-size: 31px;
+      line-height: 44px;
+      display: block;
+      
+    }
+    .CareerTextHead{
+      display: block;
+    }
+  .CareerTextDiv{
+    
+    padding-left: 30px;
+  }
+  
+    .Top {
+      max-width: 1440px;
+      margin: 0 auto;
+      padding: 80px 100px;
+      padding-bottom: 40px;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+  
+    .Top {
+        padding: 60px 36px;
+        padding-bottom: 60px;
+        padding-top: 61px;
+      }
+  }
+  .MotionImage1 {
+    background: rgba(255, 255, 255, 0.42);
+    opacity: 0.07;
+    width: 2101px;
+    height: 2101px;
+    position: absolute;
+    border-radius: 50%;
+    -webkit-transform: translate(34%, -78%);
+    -moz-transform: translate(34%, -78%);
+    -ms-transform: translate(34%, -78%);
+    transform: translate(34%, -78%);
+    -webkit-animation: animation-1nffvxq;
+    animation: animation-1nffvxq;
+    -webkit-animation-duration: 40s;
+    animation-duration: 40s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    display: block;
+  }
+  
+  @keyframes animation-1nffvxq {
+    0% {
+      -webkit-transform: translate(34%, -78%);
+      -moz-transform: translate(34%, -78%);
+      -ms-transform: translate(34%, -78%);
+      transform: translate(34%, -78%);
+    }
+    50% {
+      -webkit-transform: translate(-34%, -78%);
+      -moz-transform: translate(-34%, -78%);
+      -ms-transform: translate(-34%, -78%);
+      transform: translate(-34%, -78%);
+    }
+    100% {
+      -webkit-transform: translate(34%, -78%);
+      -moz-transform: translate(34%, -78%);
+      -ms-transform: translate(34%, -78%);
+      transform: translate(34%, -78%);
+    }
+  }
+  
+  .MotionImage2 {
+    background: rgba(255, 255, 255, 0.42);
+    opacity: 0.07;
+    width: 2101px;
+    height: 2101px;
+    position: absolute;
+    border-radius: 50%;
+    -webkit-transform: translate(34%, -78%);
+    -moz-transform: translate(34%, -78%);
+    -ms-transform: translate(34%, -78%);
+    transform: translate(34%, -78%);
+    -webkit-animation: animation-1nffvxq;
+    animation: animation-1nffvxq;
+    -webkit-animation-duration: 40s;
+    animation-duration: 40s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    display: block;
+    width: 3183px;
+    height: 3183px;
+    -webkit-transform: translate(-66%, -15%);
+    -moz-transform: translate(-66%, -15%);
+    -ms-transform: translate(-66%, -15%);
+    transform: translate(-66%, -15%);
+    -webkit-animation: animation-n0xfen;
+    animation: animation-n0xfen;
+    -webkit-animation-duration: 40s;
+    animation-duration: 40s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    display: block;
+  }
+  
+  @keyframes animation-n0xfen {
+    0% {
+      -webkit-transform: translate(-66%, -15%);
+      -moz-transform: translate(-66%, -15%);
+      -ms-transform: translate(-66%, -15%);
+      transform: translate(-66%, -15%);
+    }
+  
+    50% {
+      -webkit-transform: translate(-47%, -15%);
+      -moz-transform: translate(-47%, -15%);
+      -ms-transform: translate(-47%, -15%);
+      transform: translate(-47%, -15%);
+    }
+    100% {
+      -webkit-transform: translate(-66%, -15%);
+      -moz-transform: translate(-66%, -15%);
+      -ms-transform: translate(-66%, -15%);
+      transform: translate(-66%, -15%);
+    }
+  }
+  

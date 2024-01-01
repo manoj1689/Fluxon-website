@@ -13,7 +13,10 @@ function Header() {
   const [prevScrollPos, setPrevScrollPos] = useState(0);
   const [visible, setVisible] = useState(true);
   const [menuOpen, setMenuOpen] = useState(false);
-
+  const [whoActive,setWhoActive]=useState(false);
+  const [whatActive,setWhatActive]=useState(false);
+  const [caseActive,setCaseActive]=useState(false);
+  const [careerActive,setCareerActive]=useState(false)
   const handleMouseMove = () => {
 
     setVisible(true);
@@ -68,16 +71,32 @@ function Header() {
             <Col sm={8} md={8} lg={8}>
               <div className={styles.HeaderLists}>
                 <div >
-                  <Link className={styles.HeaderLink} href="/pages/Who">Who we are</Link>
+                  <Link className={styles.HeaderLink} href="/pages/Who">
+                  <span className={whoActive&& styles.activeLink} onClick={()=>{setCareerActive(false);setCaseActive(false),setWhoActive(true),setWhatActive(false)}}>
+                  Who we are
+                    </span>
+                    </Link>
                 </div>
                 <div  >
-                  <Link className={styles.HeaderLink} href="/pages/What">What we do</Link>
+                  <Link className={styles.HeaderLink} href="/pages/What">
+                  <span className={whatActive&& styles.activeLink} onClick={()=>{setCareerActive(false);setCaseActive(false),setWhoActive(false),setWhatActive(true)}}>
+                  What we do
+                    </span>
+                    </Link>
                 </div>
                 <div >
-                  <Link className={styles.HeaderLink} href="/pages/CaseStudies">Case studies</Link>
+                  <Link className={styles.HeaderLink} href="/pages/CaseStudies">
+                  <span className={caseActive&& styles.activeLink} onClick={()=>{setCareerActive(false);setCaseActive(true),setWhoActive(false),setWhatActive(false)}}>
+                  Case studies
+                    </span>
+                    </Link>
                 </div>
-                <div >
-                  <Link className={styles.HeaderLink} href="/pages/Career">Careers</Link>
+                <div  >
+                  <Link className={styles.HeaderLink} href="/pages/Career">
+                    <span className={careerActive && styles.activeLink} onClick={()=>{setCareerActive(true);setCaseActive(false),setWhoActive(false),setWhatActive(false)}}>
+                    Careers
+                    </span>
+                    </Link>
                 </div>
               </div>
             </Col>
@@ -120,16 +139,28 @@ function Header() {
             <Row className={styles.DropdownMenus}>
               <div>
                 <div className={styles.DropdownMenuDiv} >
-                  <Link className={styles.MobileLink} href="/pages/Who" onClick={() => setMenuOpen(!menuOpen)}>Who We Are</Link>
+                  <Link className={styles.MobileLink} href="/pages/Who" onClick={() => setMenuOpen(!menuOpen)}>
+                  <span className={whoActive&& styles.MobileActiveLink} onClick={()=>{setCareerActive(false);setCaseActive(false),setWhoActive(true),setWhatActive(false)}}>
+                  Who we are
+                    </span> </Link>
                 </div>
                 <div className={styles.DropdownMenuDiv}  >
-                  <Link className={styles.MobileLink} href="/pages/What" onClick={() => setMenuOpen(!menuOpen)} >What We Are</Link>
+                  <Link className={styles.MobileLink} href="/pages/What" onClick={() => setMenuOpen(!menuOpen)} >
+                  <span className={whatActive&& styles.MobileActiveLink} onClick={()=>{setCareerActive(false);setCaseActive(false),setWhoActive(false),setWhatActive(true)}}>
+                  What we do
+                    </span></Link>
                 </div>
                 <div className={styles.DropdownMenuDiv}  >
-                  <Link className={styles.MobileLink} href="/pages/CaseStudies" onClick={() => setMenuOpen(!menuOpen)}>Case Studies</Link>
+                  <Link className={styles.MobileLink} href="/pages/CaseStudies" onClick={() => setMenuOpen(!menuOpen)}>
+                  <span className={caseActive&& styles.MobileActiveLink} onClick={()=>{setCareerActive(false);setCaseActive(true),setWhoActive(false),setWhatActive(false)}}>
+                  Case studies
+                    </span></Link>
                 </div>
                 <div className={styles.DropdownMenuDiv} >
-                  <Link className={styles.MobileLink} href="/pages/Career" onClick={() => setMenuOpen(!menuOpen)}>Career</Link>
+                  <Link className={styles.MobileLink} href="/pages/Career" onClick={() => setMenuOpen(!menuOpen)}>
+                  <span className={careerActive && styles.MobileActiveLink} onClick={()=>{setCareerActive(true);setCaseActive(false),setWhoActive(false),setWhatActive(false)}}>
+                    Career
+                    </span></Link>
                 </div>
 
               </div>

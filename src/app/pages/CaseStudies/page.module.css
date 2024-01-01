@@ -1,8 +1,8 @@
-.WhatPage {
+.CasePage {
     z-index: 1;
   }
   
-  .WhatTopBackground {
+  .CaseTopBackground {
     background: #18181c linear-gradient(180deg, rgba(24, 24, 28, 0) 0%, #18181c 100%);
     padding-top: 85px;
     overflow: hidden;
@@ -32,7 +32,75 @@
     color: #125ef6;
   }
 
+  .CaseStudiesTryDiv{
+    background-color: #F2EEF4;
+    padding: 80px 0 80px 0;
+    
+  }
+
+  .CaseImageCol{
+    position: relative;
+    background-color: #18181c;
+    height: 400px;
+    
+  }
+
+  .CaseImage{
+    position:absolute;
+    right: 0;
+    bottom: 0;
+
+  }
+  .CaseTryText{
+    margin-top: 50px;
+  }
+  .CaseTryTittle{
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 38px;
+    color: #1E2433;
+  }
+  
+  .CaseTryDetail{
+    margin: 12px 0;
+    color: #464955;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 25px;
+    
+  }
+  
+  .TryCase{
+    align-items: center;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: #181B2B;
+    width:fit-content;
+    border-bottom: 1px solid transparent;
+    
+  }
+  .TryCase:hover{
+    border-bottom: 1px solid  #181B2B;;
+  }
   @media screen and (min-width: 905px) {
+  
+    .TryCase{
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 22px;
+      margin-top: 12px;
+    }
+    .CaseTryDetail{
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 29px;
+    }
+    .CaseTryTittle{
+      font-weight: 500;
+      font-size: 31px;
+      line-height: 44px;
+    }
 
     .Top {
       max-width: 1440px;
@@ -43,7 +111,11 @@
   }
 
   @media screen and (min-width: 768px) {
-
+    .CaseTryText{
+      margin-top: 140px;
+      padding-left: 50px;
+      width: 80%;
+    }
     .Top {
         padding: 60px 36px;
         padding-bottom: 60px;
